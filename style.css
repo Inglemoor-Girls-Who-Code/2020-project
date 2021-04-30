@@ -1,0 +1,178 @@
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: #9DC3C2;
+    z-index: 1;
+}
+
+header h1{
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bolder;
+}
+
+header ul {
+    padding: 5;
+}
+
+header li {
+    margin-left: 20px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+
+body {
+    margin: 5;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#title{
+  font-family: 'Thasadith', sans-serif;
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('847709.jpg');
+}
+
+#tableofcontents{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 30px;
+  width: 104%;
+  height: 10%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -40px;
+  top: -30px;
+
+}
+
+#tableofcontents ul>li{
+text-align: center;
+list-style-type: none;
+border-right: 1px solid #bbb;
+background-color: #4d7298;
+padding: 5px 13.8px 5px 13.8px;
+overflow: hidden;
+}
+
+#tableofcontents li{
+  float: left;
+}
+
+#tableofcontents a{
+  display: block;
+  padding: 14px 16px;
+}
+
+#tableofcontents a:link{
+text-decoration: underline;
+color: white;
+}
+#tableofcontents a:visited {
+text-decoration: underline;
+color: #c2c5bb;
+}
+
+#tableofcontents a:hover {
+text-decoration: underline;
+color: #f07167;
+}
+
+.main {
+  float: left;
+  width: 98%;
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin-top: -550px;
+}
+
+div.body {
+font-size: 20px;
+}
+
+h3 {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 500px;
+  font-weight: 900;
+  line-height: 10px;
+  white-space: normal;
+}
+
+div.gallery {
+  margin-top: -300px;
+  display: table-row;
+  width: auto;
+  margin-left: -0px;
+}
+
+div.gallery img {
+  width: 95%;
+  height: auto;
+  padding: 5px;
+  border: 5px solid #4d7298;
+}
+
+div.desc {
+  padding: 5px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#human{
+  margin-top: -650px
+}
+
+#how{
+  margin-top: -600px
+
+}
+
+footer{
+  font-family: 'Thasadith', sans-serif;
+}
