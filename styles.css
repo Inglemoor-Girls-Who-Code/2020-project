@@ -1,0 +1,26 @@
+h1 {
+   margin: 75px;
+   margin-right: 900px;
+   font-family: garamond;
+   background-color: paleturquoise;
+   padding: 10px;
+}
+
+h2 {
+   margin: 75px;
+   font-family: garamond;
+}
+
+p {
+   font-family: garamond;
+   border: 2px solid powderblue;
+   padding: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 75px;
+   margin-right: 150px;
+}
+
+mark {
+   background-color: paleturquoise;
+}
