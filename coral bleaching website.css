@@ -3,6 +3,7 @@ body.index {
   background-color:#D6E0EA;
 }
 
+/*Main Header*/
 h1{
   font-size: 80px;
   text-align: center;
@@ -13,8 +14,9 @@ h1{
   border-color: #4D7298;
   padding: 50px;
   margin: auto;
-
 }
+
+/*Subheaders*/
 h2 {
   font-size: 40px;
   width: auto;
@@ -23,6 +25,8 @@ h2 {
   margin-right: 100px;
   margin-left: 100px;
 }
+
+/*Body Text*/
 p {
   width: 300px
   border: 10px
@@ -37,6 +41,8 @@ img {
   padding-bottom: 10px;
   text-align: right;
 }
+
+/*Images for Causes & How You Can Help*/
 #img-left {
   float: left;
   padding-left: 100px;
@@ -44,6 +50,8 @@ img {
   width: 450px;
   height: 300px;
 }
+
+/*Images for What is Coral Bleaching? & Impact*/
 #img-right{
   float:right;
   padding-right: 100px;
@@ -52,9 +60,12 @@ img {
   height: 300px;
 }
 
+/*Font for body text*/
 .p1 {
   font-family: 'Thasadith', sans-serif;
 }
+
+/*Font for headers*/
 .p2 {
   font-family: 'Playfair Display', serif;
   color: #293D51
